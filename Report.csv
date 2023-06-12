@@ -1,0 +1,11 @@
+timeStamp,elapsed,label,responseCode,responseMessage,threadName,dataType,success,failureMessage,bytes,sentBytes,grpThreads,allThreads,URL,Latency,IdleTime,Connect
+1686591883335,85,User login,200,OK,Transaction 1-1,text,true,,593,312,1,1,https://dmoney.roadtocareer.net/user/login,84,0,62
+1686591883424,30,Create new agent,201,Created,Transaction 1-1,text,true,,614,617,1,1,https://dmoney.roadtocareer.net/user/create,30,0,0
+1686591883456,28,Create new customer,201,Created,Transaction 1-1,text,true,,614,617,1,1,https://dmoney.roadtocareer.net/user/create,28,0,0
+1686591883485,66,Deposit to agent,201,Created,Transaction 1-1,text,true,,444,529,1,1,https://dmoney.roadtocareer.net/transaction/deposit,66,0,0
+1686591883553,63,Deposit to customer,201,Created,Transaction 1-1,text,true,,437,534,1,1,https://dmoney.roadtocareer.net/transaction/deposit,63,0,0
+1686591883618,23,Assert expected customer balance,200,OK,Transaction 1-1,text,true,,377,434,1,1,https://dmoney.roadtocareer.net/transaction/balance/01895623588,23,0,0
+1686591883641,15,Check Customer Balance,200,OK,Transaction 1-1,text,true,,377,434,1,1,https://dmoney.roadtocareer.net/transaction/balance/01895623588,15,0,0
+1686591883656,32,payment,201,Created,Transaction 1-1,text,true,,428,533,1,1,https://dmoney.roadtocareer.net/transaction/payment,32,0,0
+1686591883689,17,withdraw money,208,Already Reported,Transaction 1-1,text,true,,431,534,1,1,https://dmoney.roadtocareer.net/transaction/withdraw,17,0,0
+1686591883707,18,delete,200,OK,Transaction 1-1,text,true,,375,442,1,1,https://dmoney.roadtocareer.net/user/delete/18953,17,0,0
